@@ -1,4 +1,4 @@
-// Two Poniters Approach
+// Two Pointers Approach
 This plays an Important role in redusing the TC from n2-->n
 
 The array need to be sorted 
