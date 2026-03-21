@@ -56,3 +56,39 @@ public class LinearSearch
         System.out.print("Index of element " + target + " is: " + result);
     }
 }
+
+
+
+// 📌 Linear Search – Concept & Theory
+// 🔹 What is Linear Search?
+
+// Linear Search is the simplest searching algorithm where you check each element of the array one by one until the target element is found or the array ends.
+
+// 🔹 How it Works
+// Start from the first element
+// Compare each element with the target
+// If match → return index
+// If not found till end → return -1
+// 🔹 Example
+
+// Array: [10, 20, 30, 40]
+// Target: 30
+
+// 👉 Comparisons:
+
+// 10 ❌
+// 20 ❌
+// 30 ✅ → Found at index 2
+// 🔹 Time Complexity (TC)
+// Best Case: O(1) → Element found at first position
+// Average Case: O(n)
+// Worst Case: O(n) → Element at last or not present
+// 🔹 Space Complexity (SC)
+// O(1) → No extra space used (constant space)
+// 🔹 When to Use
+// Small datasets
+// Unsorted arrays
+// When simplicity is more important than speed
+// 🔹 When NOT to Use
+// Large datasets
+// When data is sorted (use Binary Search instead)
