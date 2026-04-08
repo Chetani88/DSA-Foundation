@@ -1,4 +1,4 @@
-// Creating Linked List 
+// Creating Linked List  different methods
 public class Basics 
 {
     public static class Node 
