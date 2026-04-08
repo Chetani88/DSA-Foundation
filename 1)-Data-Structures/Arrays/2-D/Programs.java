@@ -284,7 +284,7 @@ public class Transpose
        }
 }
 
-// (II) Inspace (Within same Array)
+// (II) Inspace (Within same Array)  --------> Only valid for a Square Matrix
 
 // Transpose of a Matrix A only for a Sqaure Matrix
 import java.util.Scanner;
